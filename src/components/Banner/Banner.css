@@ -1,0 +1,107 @@
+.baner{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    color:#fff ;
+}
+.lin-btn{
+    color: #F4722B;
+    text-decoration: none;
+}
+.lin-btn:hover{
+    color: #ffcb69;
+}
+
+.banner-top{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-top img{
+    width: 185px;
+    height: 185px;
+}
+.banner-content{
+    width: 561px;
+    height: 283px;
+    text-align: center;
+    padding: 1px;
+    line-height: 1.5;
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.banner-btn .baner-gren{
+    width: 88px;
+    height: 36px;
+    border-radius: 7px;
+    background-color: rgb(16, 165, 40);
+    border: none;
+    color: #fff;
+    
+}
+.banner-btn .baner-yellow{
+    width: 117px;
+    height: 36px;
+    border-radius: 7px;
+    background-color: rgb(254, 196, 58);
+    border: none;
+    color: #fff;
+}
+
+
+.banner-search{
+    margin-top: 30px;
+}
+
+.banner-search input{
+    width: 298px;
+    height: 37px;
+    padding: 6px 12px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border-radius: 0.375rem;
+    border: none;
+}
+
+.search-content{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+.t304{
+    display: flex;
+}
+
+
+/* -------------------------------------------- */
+.banner-foot{
+    margin-top: 10px;
+}
+.menu{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+
+.foot{
+    cursor: pointer;
+    color: #F4722B;
+}
+
+.foot:hover{
+    color: #ffcb69;
+}
+
+
+.foot img{
+    width: 205px;
+    height: 205px;
+}

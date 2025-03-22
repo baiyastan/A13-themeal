@@ -1,0 +1,14 @@
+.foot{
+    cursor: pointer;
+    color: #F4722B;
+}
+
+.foot:hover{
+    color: #ffcb69;
+}
+
+
+.foot img{
+    width: 205px;
+    height: 205px;
+}
