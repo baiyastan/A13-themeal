@@ -5,10 +5,10 @@ import { Link } from 'react-router-dom'
 
 function Letter() {
   return (
-    <div>
+    <div className='letter container'>
       {
-        letter.map((item) => (
-            <Link>{item}</Link>
+        letter.map((item, index) => (
+            <p key={index}><Link to={`/letter/${item}`}>{item}</Link> /</p>
         ))
       }
     </div>
